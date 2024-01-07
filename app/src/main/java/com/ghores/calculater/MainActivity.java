@@ -131,28 +131,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txt_history = (TextView) findViewById(R.id.txt_history);
-        txt_result = (TextView) findViewById(R.id.txt_result);
-        btn_0 = (Button) findViewById(R.id.btn_0);
-        btn_1 = (Button) findViewById(R.id.btn_1);
-        btn_2 = (Button) findViewById(R.id.btn_2);
-        btn_3 = (Button) findViewById(R.id.btn_3);
-        btn_4 = (Button) findViewById(R.id.btn_4);
-        btn_5 = (Button) findViewById(R.id.btn_5);
-        btn_6 = (Button) findViewById(R.id.btn_6);
-        btn_7 = (Button) findViewById(R.id.btn_7);
-        btn_8 = (Button) findViewById(R.id.btn_8);
-        btn_9 = (Button) findViewById(R.id.btn_9);
-        btn_plus = (Button) findViewById(R.id.btn_plus);
-        btn_minus = (Button) findViewById(R.id.btn_minus);
-        btn_multiply = (Button) findViewById(R.id.btn_multiply);
-        btn_division = (Button) findViewById(R.id.btn_division);
-        btn_sign = (Button) findViewById(R.id.btn_sign);
-        btn_clear = (Button) findViewById(R.id.btn_clear);
-        btn_clearEntity = (Button) findViewById(R.id.btn_clearEntity);
-        btn_back = (Button) findViewById(R.id.btn_back);
-        btn_dot = (Button) findViewById(R.id.btn_dot);
-        btn_equal = (Button) findViewById(R.id.btn_equal);
+        txt_history = findViewById(R.id.txt_history);
+        txt_result = findViewById(R.id.txt_result);
+        btn_0 = findViewById(R.id.btn_0);
+        btn_1 = findViewById(R.id.btn_1);
+        btn_2 = findViewById(R.id.btn_2);
+        btn_3 = findViewById(R.id.btn_3);
+        btn_4 = findViewById(R.id.btn_4);
+        btn_5 = findViewById(R.id.btn_5);
+        btn_6 = findViewById(R.id.btn_6);
+        btn_7 = findViewById(R.id.btn_7);
+        btn_8 = findViewById(R.id.btn_8);
+        btn_9 = findViewById(R.id.btn_9);
+        btn_plus = findViewById(R.id.btn_plus);
+        btn_minus = findViewById(R.id.btn_minus);
+        btn_multiply = findViewById(R.id.btn_multiply);
+        btn_division = findViewById(R.id.btn_division);
+        btn_sign = findViewById(R.id.btn_sign);
+        btn_clear = findViewById(R.id.btn_clear);
+        btn_clearEntity = findViewById(R.id.btn_clearEntity);
+        btn_back = findViewById(R.id.btn_back);
+        btn_dot = findViewById(R.id.btn_dot);
+        btn_equal = findViewById(R.id.btn_equal);
 
         btn_clear.setOnClickListener(new View.OnClickListener() {
             @Override
